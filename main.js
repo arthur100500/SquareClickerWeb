@@ -51,9 +51,7 @@ class GlobalObjects{
 function getMousePosition(canvas, event, game) {
   let rect = canvas.getBoundingClientRect();
   
-  game.click(new Pos((event.clientX - rect.left) * 630 / 588.0, (event.clientY - rect.top) * 754 / 702.0));
-  
-  console.log(new Pos((event.clientX - rect.left) * 630 / 588.0, (event.clientY - rect.top) * 754 / 702.0))
+  game.click(new Pos((event.clientX - rect.left) * 588 / 630.0, (event.clientY - rect.top) * 702 / 754.0));
 }
 
 class Game{
@@ -118,9 +116,6 @@ class Game{
       this.updateScoreCounters();
       GlobalObjects.comboCounter.innerHTML = "Score: ";
       document.cookie = "sqrclckrrcrd=" + this.score.toString() + ";"; 
-      if(this.attempt % 4 == 3){
-        window.location.href = 'https://youtu.be/dQw4w9WgXcQ';
-      }
       this.attempt++;
     }
 
