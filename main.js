@@ -51,7 +51,7 @@ class GlobalObjects{
 function getMousePosition(canvas, event, game) {
   let rect = canvas.getBoundingClientRect();
   
-  game.click(new Pos(event.clientX - rect.left, event.clientY - rect.top));
+  game.click(new Pos((event.clientX - rect.left) * 630 / 588, (event.clientY - rect.top) * 754 / 702));
 }
 
 class Game{
