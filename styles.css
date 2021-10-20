@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 .text{
 	 list-style-type: none;
      font-size: 112px;
