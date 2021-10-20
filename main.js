@@ -180,7 +180,6 @@ class Game{
         }
       }
     }
-    console.log(c);
     if (c == 0){
       this.destroyReds();
       this.replaceGrayByRandom();
