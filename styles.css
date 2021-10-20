@@ -1,0 +1,32 @@
+.text{
+	 list-style-type: none;
+     font-size: 112px;
+     font-family: 'Houschka Pro', Arial;
+     color: blue;
+}
+
+.fontrenderer{
+    user-select: none;
+    color: #ffffff;
+    font-size: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.fontrendererla{
+    user-select: none;
+    color: #ffffff;
+    font-size: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    direction: rtl;
+}
+
+canvas{
+    image-rendering: pixelate;
+}
+
+body{
+	margin: 0px;
+}
