@@ -119,7 +119,7 @@ class Game{
       GlobalObjects.comboCounter.innerHTML = "Score: ";
       document.cookie = "sqrclckrrcrd=" + this.score.toString() + ";"; 
       if(this.attempt % 4 == 3){
-        document.location.href = 'https://youtu.be/dQw4w9WgXcQ';
+        window.location.href = 'https://youtu.be/dQw4w9WgXcQ';
       }
       this.attempt++;
     }
